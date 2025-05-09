@@ -1,7 +1,7 @@
 const path = require("path");
 
 const getFileFromAbsolutePath = (catalog, fileWithFormat) => {
-  const rootFileDir = path.dirname(require.main.filename);
+  const rootFileDir = path.resolve(process.cwd());
 
   if (!fileWithFormat) {
     return path.join(rootFileDir, catalog);

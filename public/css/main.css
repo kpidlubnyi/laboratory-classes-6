@@ -159,8 +159,8 @@ main {
 }
 
 .card__image {
-  width: 100%;
-  max-height: 200px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 0.5rem 0.5rem 0 0;
   margin-bottom: 1rem;
